@@ -8,7 +8,7 @@ class Program
     try
     {
       Random rnd = new Random();
-      
+
       Console.WriteLine("=== じゃんけんコンソールアプリ ===");
 
       while (true)
