@@ -75,21 +75,21 @@ class Program
   }
 
   static string HandToString(int hand)
+  {
+    switch (hand)
+    {
+      case 1:
       {
-        switch (hand)
-        {
-          case 1:
-          {
-            return "グー";
-          }
-          case 2:
-          {
-            return "チョキ";
-          }
-          default:
-          {
-            return "パー";
-          }
-        }
+        return "グー";
       }
+      case 2:
+      {
+        return "チョキ";
+      }
+      default:
+      {
+        return "パー";
+      }
+    }
+  }
 }
